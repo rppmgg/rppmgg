@@ -23,14 +23,14 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.4 | 846 | 13.0M | 618K | 127.5M | $78.26 | $239.11 | $314.56 |
-| **Total** | **846** | **13.0M** | **618K** | **127.5M** | **$78.26** | **$239.11** | **$314.56** |
+| gpt-5.4 | 843 | 12.7M | 617K | 126.9M | $77.40 | $238.08 | $310.49 |
+| **Total** | **843** | **12.7M** | **617K** | **126.9M** | **$77.40** | **$238.08** | **$310.49** |
 
-_141.1M total tokens processed. 90.3% cache hit rate._
+_140.3M total tokens processed. 90.5% cache hit rate._
 
-_$553.67 total saved ($239.11 caching + $314.56 model routing vs all-Opus)._
+_$548.57 total saved ($238.08 caching + $310.49 model routing vs all-Opus)._
 
-_Model savings are modest because ~90.3% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~90.5% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -49,5 +49,5 @@ _Model savings are modest because ~91.1% of tokens are cache reads, where price 
 <!-- STATS-END -->
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-26 15:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-26 16:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
