@@ -8,16 +8,18 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 15.5h | 97.3h | 226.1h | ~4,782h* |
-| User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
+| Screen time (Linux) | 2.7h | 25h | 188.5h | ~4,782h* |
+| User AI session hours | 0.0h | 0.0h | 0.0h | 12.7h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| Interactive sessions | 0 | 0 | 0 | 0 |
+| AI concurrency hours | 0.0h | 0.0h | 0.0h | 39.6h |
+| Interactive sessions | 0 | 0 | 0 | 80 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
-_User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
+_User AI session hours are attended interactive time measured from gaps between AI responses and the next user message; AI concurrency hours include attended time, AI generation, and background workers._
+
+_AI session 365-day totals cover 39 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (all time)
 
@@ -36,5 +38,5 @@ _Model savings are modest because ~91.1% of tokens are cache reads, where price 
 <!-- STATS-END -->
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-14 19:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-20 07:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
